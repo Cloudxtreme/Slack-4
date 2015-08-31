@@ -2,9 +2,9 @@ Meteor.startup(function() {
 
   Meteor.users.remove({});
   Accounts.createUser({
-    username: "scotchio",
-    email: "scotch@example.com",
-    password: "dummypassword"
+    username: "stanley",
+    email: "stanley@berkeley.com",
+    password: "password"
   });
 
   Factory.define('message', Messages, {
